@@ -5,6 +5,13 @@
                                 2️⃣
 This second protfolio project was carreid out as a result of a task in arcondace to the HTML and CSS. 
 
+# Responsive 
+Screen Size 
+# width - 320px
+# width - 768px Higher  
+
+Fully responsive
+
 # FULLSTACK 
  Learning  in progress 
 
