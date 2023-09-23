@@ -1,0 +1,641 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+ 
+    height: 3181px;
+    top: 0px;
+    left: 0px;
+    width: 1450px;
+    height: 3181px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-shadow: #000000 0 0 10px;
+      
+}
+
+@media screen and (max-width: 320px)
+{
+.container{
+    position: absolute;
+    width: 320px;
+    height: 4420px;
+    
+    background-color: #ffffff;
+  }
+  .dev-name{
+    color: #000000;
+    padding: 20px;
+    width: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  #gp1{
+    position: absolute;
+    top: 18px;
+    left: 265px;
+    width: 29px;
+    height: 2.5px;
+    /* UI Properties */
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    border: 1px solid black;
+}
+#gp2{
+    position: absolute;
+    top: 26px;
+    left: 265px;
+    width: 29px;
+    height: 2.5px;
+    /* UI Properties */
+    background-color: rgba(0, 0, 0, 0.945);
+    border-radius: 2px;
+    border: 1px solid black;
+}
+#gp3{
+    position: absolute;
+    top: 34px;
+    left: 265px;
+    width: 29px;
+    height: 2.5px;
+    /* UI Properties */
+    background-color: black;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+#card{
+   text-align: center;
+    position: absolute;
+    top:  75px;
+    left: 0.1px;
+    width: 315px;
+}   
+#iam{
+    font-size: 50px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+#my-name{
+    font-size: 45px;
+    font-family: fantasy;
+}
+#dev{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 5px;
+    width: 285px;
+    position: absolute;
+    background-color: rgb(0, 230, 199);
+    top:    200px;
+    left: 10px;
+}
+#img-p{
+    position: absolute;
+    top: 270px;
+    left: 30px;
+    height: 265px;
+    box-shadow: 0px 0px 20px #000000;
+}
+#one1{
+    border: 2ps solid rgb(209, 255, 2);
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    width: 320px;
+    height: 990px;
+    background: #2E2E2E;
+    /* background: linear-gradient(0deg, #1a0124, #032225); */
+/* UI Properties */
+    opacity: 1;
+}
+#one{
+   
+    text-align: center;
+    position: absolute;
+    color: hsl(170, 94%, 51%);
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    top: 60px;
+    left: 0px;
+    width: 320px;
+    
+}
+#line{
+    position: absolute;
+    justify-content: center;
+    top: 155px;
+    left: 95px;
+    width: 90px;
+    height: 3px;
+    /* UI Properties */
+    background-color: rgb(175, 175, 175);
+    border-radius: 2px;
+    border: 5cap solid rgb(148, 148, 148);
+    margin: 10px;
+    opacity: 2;
+}
+#head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    top: 190px;
+    left: 60px;
+}
+#head2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    top: 380px;
+    left: 60px;
+}
+#head3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    top: 630px;
+    left: 60px;
+}
+#con p{
+    position: absolute;
+    color: #c7c7c7;
+    font-size: 17px;
+    font-family: sans-serif;
+    top: 230px;
+    left: 20px;
+    width: 250px;
+    height: 85px;
+    text-align: justify;
+}
+#con2 p{
+    position: absolute;
+    color: #adadad;
+    font-size: 17px;
+    font-family: sans-serif;
+    top: 430px;
+    left: 20px;
+    width: 250px;
+    height: 85px;
+    text-align: justify;
+}
+#con3 p{
+    text-align: justify;
+    position: absolute;
+    color: #adadad;
+    font-size: 17px;
+    font-family: sans-serif;
+    top: 680px;
+    left: 20px;
+    width: 250px;
+    height: 85px;
+}
+#a{
+    position: absolute;
+    top: 870px;
+    left: 50px;
+    padding: 10px  55px;
+    border-radius: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 230, 199);
+    color: #000000;
+}
+#who{
+    position: absolute;
+    color: #000000;
+    font-size: 50px;
+    font-family: sans-serif;
+    top: 990px;
+    left: 39px;
+    width: 250px;
+    height: 85px;
+}
+#card2{
+    border:  2px solid blueviolet;
+    text-align: left;
+    position: absolute;
+    top:  580px;
+    left: 00px;
+    background-color: #FFFFFF;
+ 
+
+}
+#dev2{
+    position: absolute;
+    top: 1650px;
+    left: 25px;
+    text-align: center;
+    width: 250px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+    background-color:  rgb(0, 230, 199);
+    color: #000000;
+}
+#img-p1{
+    position: absolute;
+    top:    1760px;
+    left: 45px;
+    height: 330px;
+    box-shadow: 0px 0px 20px #000000;
+}
+#about{
+    position: absolute;
+    top: 1540px;
+    left: 30px;
+    font-family: sans-serif;
+    width: 265px;
+    text-align: justify;
+    font-size: 13px;
+    color: #686868;
+}
+#three{
+    position: absolute;
+    width: 320px;
+    height: 1750px;
+    top: 2425px;
+    /* UI Properties */
+    background: #2E2E2E 0% 0% no-repeat padding-box;
+    opacity: 1;
+   
+}
+#my-work{
+   
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: sans-serif;
+    top: 90px;
+    left: 45px;
+    width: 250px;
+    height: 85px;
+}
+#sele{
+
+    position: absolute;
+    color: rgb(0, 230, 199);
+    font-size: 20px;
+    font-family: sans-serif;
+    top: 190px;
+    font-weight: bold;
+    left: 35px;
+    text-align: center;
+    width: 250px;
+    height: 85px;
+}
+#img-p2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 320px;
+    left: 50px;
+    
+}
+#img{
+    height: 150px;
+}
+#footer{
+    position: absolute;
+    top: 4170px;
+    left: 0px;
+    width: 320px;
+    height: 252px;
+    background-color: #000000;
+}
+#sele2{
+
+    position: absolute;
+    color: rgb(0, 230, 199);
+    font-size: 12px;
+    
+    font-family: sans-serif;
+    top: 80px;
+    font-weight: bold;
+    left: 45px;
+    width: 400px;
+    height: 85px;
+} 
+}
+
+ .my-name{
+    font-size: 50px;
+    font-family: fantasy;
+
+} 
+.card{
+    text-align: left;
+    position: absolute;
+    top:  142px;
+    left: 730px;
+}
+.card2{
+    text-align: left;
+    position: absolute;
+    top:  280px;
+    left: 200px;
+ 
+
+}
+.img-p{
+    position: absolute;
+    top:    100px;
+    left: 377px;
+    height: 313px;
+    box-shadow: 0px 0px 20px #000000;
+}
+.img-p1{
+    position: absolute;
+    top:    1400px;
+    left: 890px;
+    height: 413px;
+    box-shadow: 0px 0px 20px #000000;
+}
+.dev2{
+    position: absolute;
+    top: 1490px;
+    left: 168px;
+    width: 270px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    padding: 10px 750px 10px 40px;
+    position: absolute;
+    background-color: rgb(0, 230, 199);
+   
+    color: #000000;
+}
+.about{
+    position: absolute;
+    top: 1300px;
+    font-family: sans-serif;
+    width: 650px;
+    text-align: justify;
+    font-weight: bold;
+    color: #414141;
+}
+.dev{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 520px;
+    position: absolute;
+    background-color: rgb(0, 230, 199);
+    top:    280px;
+    left: 310px;
+    color: #000000;
+} 
+.iam{
+    
+    
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.one1{
+   
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    width: 1450px;
+    height: 700px;
+    background: linear-gradient(0deg, #000000d2, #000000f8), url(./R\ \(1\).jpg);
+     /* background: linear-gradient(0deg, #1a0124, #032225);  */
+ opacity: 1;
+}
+.one{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: sans-serif;
+    top: 91px;
+    left: 600px;
+    width: 250px;
+    height: 85px;
+}
+.my-work{
+   
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 50px;
+        font-family: sans-serif;
+        top: 110px;
+        left: 600px;
+        width: 250px;
+        height: 85px;
+    }
+.sele{
+  
+        position: absolute;
+        color: rgb(0, 230, 199);
+        font-size: 20px;
+        font-family: sans-serif;
+        top: 190px;
+        font-weight: bold;
+        left: 550px;
+        width: 500px;
+        height: 85px;
+    }
+.sele2{
+
+    position: absolute;
+    color: rgb(0, 230, 199);
+    font-size: 20px;
+    font-family: sans-serif;
+    top: 80px;
+    font-weight: bold;
+    left: 550px;
+    width: 400px;
+    height: 85px;
+} 
+.img-p2 {
+    display: block;
+    position: absolute;
+    top: 320px;
+    
+    left: 70px;
+}
+.img{
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.a{
+    position: absolute;
+    top: 600px;
+    left: 650px;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 230, 199);
+    color: #000000;
+}
+.head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    top: 250px;
+    left: 200px;
+}
+.head2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    top: 250px;
+    left: 600px;
+}
+.head3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    top: 250px;
+    left: 1000px;
+}
+.con p{
+    position: absolute;
+    color: #adadad;
+    font-size: 20px;
+    font-family: sans-serif;
+    top: 330px;
+    left: 200px;
+    width: 250px;
+    height: 85px;
+    text-align: justify;
+
+}
+.con2 p{
+    position: absolute;
+    color: #adadad;
+    font-size: 20px;
+    font-family: sans-serif;
+    top: 330px;
+    left: 600px;
+    width: 250px;
+    height: 85px;
+    text-align: justify;
+}
+.con3 p{
+    text-align: justify;
+    position: absolute;
+    color: #adadad;
+    font-size: 20px;
+    font-family: sans-serif;
+    top: 330px;
+    left: 1000px;
+    width: 250px;
+    height: 85px;
+
+}
+ .line{
+    position: absolute;
+    top: 155px;
+    left: 661px;
+    width: 90px;
+    height: 2px;
+ 
+    background-color: rgb(175, 175, 175);
+    border-radius: 2px;
+    border: 2px solid rgb(175, 175, 175);
+    margin: 10px;
+    opacity: 2;
+} 
+
+ .group01{
+    position: absolute;
+    top: 31px;
+    left: 1389px;
+    width: 29px;
+    height: 2px;
+    
+    background-color: black;
+    border-radius: 2px;
+    border: 0.5px solid black;
+    margin: 10px;
+    opacity: 2;
+} 
+.group02{
+    position: absolute;
+    top: 39px;
+    left: 1389px;
+    width: 29px;
+    height: 2px;
+    
+    background-color: black;
+    border-radius: 2px;
+    border: 0.5px solid black;
+    margin: 10px;
+    opacity: 1;
+}
+.group03{
+    position: absolute;
+    top: 47px;
+    left: 1389px;
+    width: 29px;
+    height: 2px;
+   
+    background-color: black;
+    border-radius: 2px;
+    border: 0.5px solid black;
+    margin: 10px;
+    opacity: 1;
+}*/
+.two{ 
+    position: absolute;
+    color: #ff0000;
+    top: 2930px;
+    left: 0px;
+    width: 1450px;
+    height: 252px;
+    background-color: #2E2E2E;
+}
+.who{
+    position: absolute;
+    color: #000000;
+    font-size: 50px;
+    font-family: sans-serif;
+    top: 1130px;
+    left: 00px;
+    width: 250px;
+    height: 85px;
+}
+.three{
+    position: absolute;
+    width: 1450px;
+    height: 1005px;
+    top: 1925px;
+    /* UI Properties */
+    background: #2E2E2E 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 1005px;
+}
+.footer{
+    position: absolute;
+    top: 2930px;
+    left: 0px;
+    width: 1450px;
+    height: 252px;
+    background-color: #000000;
+}
